@@ -1,0 +1,153 @@
+
+
+nav{
+    font-size: 1rem !important;
+    font-weight: 900 !important;
+    margin-top: 15px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.menu{
+    list-style: none;
+    
+}
+.menu > li{
+    position: relative;
+    display:inline-block !important;
+}
+.menu  li  a:hover{
+    color: #13a8b3 !important;
+    transition: all .3s;
+}
+.menu ul{
+    list-style: none;
+}
+.submenu{
+    position: absolute;
+    background-color: #775548;
+    padding: 15px;
+    width: 140%;
+    border: solid 2px;
+    border-color: #EF670D;
+    border-radius: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+a{
+    color: #EF670D !important;
+}
+
+body{
+    background: #EDECE9 !important;
+    color: #775548 !important;
+}
+p{
+    margin: 1rem;
+}
+
+.titulo{
+    background-color: #775548 !important;
+    color: #edece9ce;
+    margin: 1rem;
+}
+h1{
+    font-size: 1rem !important;
+}
+h2{
+    font-size: 1rem!important;
+}
+h3{
+    text-align: center;
+    margin: 100px;
+}
+footer{
+    margin-top: 30px;
+    border-top: solid 1px #775548;
+}
+
+header {
+    display:flex;
+
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+.logo img{
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.descuentos{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 500px;
+}
+
+.descuentos p{
+    position: relative;
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+}
+.descuentos p span{
+    position:absolute;
+    right: 0;
+    width: 0;
+    background: #EDECE9;
+    border-left: 1px solid #000;
+
+    animation: maquina 5s infinite alternate steps(67);
+}
+@keyframes maquina{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+.descuentos img{
+    width: 220px;
+}
+.contactanos{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.redes img{
+    margin-left: 50px;
+}
+
+.alquilerTotal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alquilerTotal img{
+    width: 200px;
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
