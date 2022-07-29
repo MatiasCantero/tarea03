@@ -1,4 +1,5 @@
 
+/* Estilos generales */
 
 nav{
     font-size: 1rem !important;
@@ -88,6 +89,8 @@ header {
     margin-right: 15px;
 }
 
+/* Pagina de descuentos */
+
 .descuentos{
     display: flex;
     align-items: center;
@@ -115,6 +118,18 @@ header {
 .descuentos img{
     width: 220px;
 }
+
+@keyframes maquina{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+
+/* Pagina de contacto */
+
 .contactanos{
     text-align: center;
     font-size: 20px;
@@ -132,6 +147,8 @@ header {
     margin-left: 50px;
 }
 
+/* Pagina de alquiler */
+
 .alquilerTotal{
     display: flex;
     justify-content: center;
@@ -145,11 +162,3 @@ header {
     margin-bottom: 200px;
 }
 
-@keyframes maquina{
-    from{
-        width: 100%;
-    }
-    to{
-        width: 0;
-    }
-}
