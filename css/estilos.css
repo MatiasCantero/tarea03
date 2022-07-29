@@ -111,14 +111,7 @@ header {
 
     animation: maquina 5s infinite alternate steps(67);
 }
-@keyframes maquina{
-    from{
-        width: 100%;
-    }
-    to{
-        width: 0;
-    }
-}
+
 .descuentos img{
     width: 220px;
 }
@@ -132,7 +125,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 .redes img{
@@ -150,4 +143,13 @@ header {
     margin-top: 200px;
     margin-right: 100px;
     margin-bottom: 200px;
+}
+
+@keyframes maquina{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
 }
