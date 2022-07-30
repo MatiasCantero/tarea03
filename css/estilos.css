@@ -93,6 +93,7 @@ header {
 
 .descuentos{
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-top: 50px;
     margin-left: 100px;
@@ -112,7 +113,7 @@ header {
     background: #EDECE9;
     border-left: 1px solid #000;
 
-    animation: maquina 5s infinite alternate steps(67);
+    animation: maquina 5s infinite alternate steps(110);
 }
 
 .descuentos img{
@@ -162,3 +163,23 @@ header {
     margin-bottom: 200px;
 }
 
+/* Pagina de ubicacion */
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* Pagina de Tarifas */
+
+.tarifazo{
+    background-color: #775548;
+}
+
+.tarifas{
+    font-size: 1.7rem !important;
+    color: #EDECE9;
+}
